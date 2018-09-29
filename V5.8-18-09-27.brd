@@ -65,7 +65,7 @@
 <wire x1="76.2" y1="0" x2="76.2" y2="38.1" width="0" layer="20"/>
 <wire x1="76.2" y1="38.1" x2="0" y2="38.1" width="0" layer="20"/>
 <text x="12.7" y="31.75" size="1.27" layer="25">on</text>
-<text x="71.12" y="13.97" size="1.27" layer="25">+6dB</text>
+<text x="71.12" y="13.97" size="1.27" layer="25">14dB</text>
 <text x="12.7" y="13.97" size="1.27" layer="25">int on</text>
 <text x="12.7" y="22.86" size="1.27" layer="25">off</text>
 <text x="12.7" y="2.54" size="1.27" layer="25">int off</text>
