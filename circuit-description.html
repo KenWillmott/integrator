@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 5.4.5.1 (Windows)"/>
+	<meta name="created" content="2009-04-16T11:32:02.640000000"/>
+	<meta name="changed" content="2018-09-28T23:59:50.346000000"/>
+	<meta name="Info 1" content=""/>
+	<meta name="Info 2" content=""/>
+	<meta name="Info 3" content=""/>
+	<meta name="Info 4" content=""/>
+	<style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.08in; so-language: zxx }
+	</style>
+</head>
+<body lang="en-US" dir="ltr">
+<p lang="zxx" style="margin-bottom: 0in">The V5 integrator for
+electric guitar pickup measurements can be divided into four
+functional blocks. Each one is actually performed by one op amp. One,
+IC1D,  supplies the approximately half supply voltage to provide a
+reference voltage for bipolar operation from a single voltage supply.
+Zener D1 reverse voltage of 5.1V is filtered by a capacitor and
+supplied to the input of the amp, which is configured as a voltage
+follower. 
+</p>
+<p lang="zxx" style="margin-bottom: 0in"><br/>
+
+</p>
+<p lang="zxx" style="margin-bottom: 0in">IC1C is a preamplifier for
+the signal from the pickup under test. A switch allows a choice of
+0dB or 6dB gain. The test input feeds it through a high impedance
+network that provides isolation from the preamplifier input circuit.
+It is almost identical to the circuit in a typical oscilloscope
+probe. However, it can have lower capacitance because a long cable is
+not required and so does not need to be compensated as heavily. As
+with the scope probe, there is a screwdriver adjustable variable
+capacitor that can be used to calibrate the network. The network
+input has an approximately 11M ohm resistance and 10pF capacitance. A
+three-way switch allows the input to be loaded by a standard RC test
+load of 200k/470pF, an inductance test load of 4700pF, or else no
+load.</p>
+<p lang="zxx" style="margin-bottom: 0in"><br/>
+
+</p>
+<p lang="zxx" style="margin-bottom: 0in">IC1B is an analog integrator
+with a very low frequency cutoff to provide op amp DC stability. The
+blocking capacitor C5 is needed to eliminate the DC input current
+sensitivity caused by the large value of R6.</p>
+<p lang="zxx" style="margin-bottom: 0in"><br/>
+
+</p>
+<p lang="zxx" style="margin-bottom: 0in">IC1A is a post amplifier and
+output line driver.</p>
+<p lang="zxx" style="margin-bottom: 0in"><br/>
+
+</p>
+<p lang="zxx" style="margin-bottom: 0in">The gain through the circuit
+stages was determined by direct experimentation with pickup readings.
+The signal level after the -20.8dB loss through the high impedance
+network is either passed to the integrator or amplified by 14.4 dB,
+in which case the level is -6.4dB. The integrator gain varies with
+frequency, but is unity gain at 884 Hz. The post amplifier has a gain
+of 33.5dB to restore normal audio levels because the integrator gain
+is deliberately kept low to increase dynamic range and minimize
+signal clipping. The preamp gain switch is provided to accomodate
+pickups with different output levels.</p>
+</body>
+</html>
